@@ -1,15 +1,15 @@
 import _ from "radash";
 import p5 from "p5";
 
-const sketch = (p5: p5) => {
-  p5.setup = () => {
+const sketch = (p: p5) => {
+  p.setup = () => {
     // Run at start
-    p5.createCanvas(window.innerWidth, window.innerHeight);
+    p.createCanvas(window.innerWidth, window.innerHeight);
   };
 
-  p5.draw = () => {
+  p.draw = () => {
     // Runs every frame
-    p5.circle(50, 50, 50);
+    p.circle(50, 50, 50);
   };
 };
 
