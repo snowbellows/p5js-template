@@ -1,14 +1,15 @@
-import _ from 'lodash';
-import p5 from 'p5';
+import _ from "radash";
+import p5 from "p5";
 
-const sketch = (p: p5) => {
-  p.setup = () => {
+const sketch = (p5: p5) => {
+  p5.setup = () => {
     // Run at start
-    p.createCanvas(window.innerWidth, window.innerHeight);
+    p5.createCanvas(window.innerWidth, window.innerHeight);
   };
 
-  p.draw = () => {
+  p5.draw = () => {
     // Runs every frame
+    p5.circle(50, 50, 50);
   };
 };
 
