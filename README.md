@@ -2,19 +2,20 @@
 
 ## Overview
 
-A simple template for making a p5js (<https://p5js.org/>) sketch using Snowpack and Typescript. This is my favourite setup and familiar to me as a Frontend Developer, if you just want to get going without worrying about your local development environment <https://editor.p5js.org/> is a great place to start.
+A simple template for making a [p5js](https://p5js.org/) sketch using Vite and Typescript. This is my favourite setup and familiar to me as a Frontend Developer, if you just want to get going without worrying about your local development environment the [p5js web editor](https://editor.p5js.org/) is a great place to start.
 
 I like this set up for the following reasons:
 
 - I can use a local development environment I'm used to
 - Typescript offers excellent autocomplete and error messages through VS Code (my IDE)
-- Snowpack gives quick hotreloading which allows me to "instantly" see changes I make in the b
+- Vite gives quick hotreloading which allows me to "instantly" see changes I make in the browser
+- I've also added [radash](https://radash-docs.vercel.app/docs/getting-started) because I find it pretty helpful, remove it if you like
 
 ## Prerequisites
 
 You will need local installs of nodejs and npm. I recommend using nvm (<https://github.com/nvm-sh/nvm>) which allows you to install and manage multiple versions at once.
 
-I use the latest LTS verson of node which on my machine at time of writing is `v14.16.1 (npm v6.14.12)`, I'll try and bump this in the readme for major versions but you should be able to use anything later than `v10` I'm just telling you what I'm currently working with.
+I use the latest LTS verson of node which on my machine at time of writing is `v18.15.0 (npm v9.5.0)`, I'll try and bump this in the readme for major versions but you should be able to use anything later than `v16` I'm just telling you what I'm currently working with.
 
 Then clone this repo using git and run
 
@@ -65,6 +66,6 @@ Just opening the html file in your browser at this stage simply won't work it ne
 
 ## Troubleshooting Problems
 
-Honestly I'm just making this for myself and expect anyone who might want to use it to to be more than capable of troubleshooting they're own problems but you're welcome to contact me via alexhalverson@posteo.net or @snowbellows on Twitter if you have any issues or would just like to chat about p5js and generative art/creative coding more generally.
+Honestly I'm just making this for myself and expect anyone who might want to use it to be more than capable of troubleshooting they're own problems but you're welcome to contact me via alexhalverson@posteo.net or @snowbellows on Instagram if you have any issues or would just like to chat about p5js and generative art/creative coding more generally.
 
 Have Fun!

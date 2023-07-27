@@ -1,5 +1,5 @@
-import _ from 'lodash';
-import p5 from 'p5';
+import _ from "radash";
+import p5 from "p5";
 
 const sketch = (p: p5) => {
   p.setup = () => {
@@ -9,6 +9,7 @@ const sketch = (p: p5) => {
 
   p.draw = () => {
     // Runs every frame
+    p.circle(50, 50, 50);
   };
 };
 
